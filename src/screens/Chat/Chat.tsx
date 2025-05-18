@@ -46,7 +46,7 @@ const ChatScreen: FC = () => {
     () => {
       toast({
         title: 'Не удалось отправить запрос',
-        description: 'Возможно, вы завбыли включить VPN',
+        description: 'Возможно, вы забыли включить VPN',
         status: 'error',
       });
     },
