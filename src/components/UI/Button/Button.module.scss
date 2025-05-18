@@ -1,0 +1,21 @@
+.button {
+  padding: 1rem;
+  background-color: var(--violet);
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.4s ease, color 0.4s ease, filter 0.4s ease;
+
+  &:disabled {
+    background-color: var(--light-gray) !important;
+    color: var(--gray) !important;
+    filter: brightness(100%) !important;
+  }
+
+  &:hover,
+  &:focus {
+    filter: brightness(90%);
+  }
+}

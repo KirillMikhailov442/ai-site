@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+}
+
+.message {
+  max-width: 500px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.me {
+  border-radius: 16px 16px 0px 16px;
+  margin-left: auto;
+  background-color: var(--light-gray);
+}
+
+.ai {
+  border-radius: 16px 16px 16px 0px;
+  margin-right: auto;
+  color: var(--violet);
+  background-color: var(--light-gray);
+}
+
+.date {
+  color: var(--gray);
+  font-size: 12px;
+  flex-shrink: 0;
+
+  &Left {
+    order: -1;
+  }
+
+  &Right {
+    order: 2;
+  }
+}

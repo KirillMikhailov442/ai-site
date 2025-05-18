@@ -1,0 +1,98 @@
+.wrapper {
+  min-height: 100dvh;
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  padding-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+}
+
+.avatar {
+  width: 40px !important;
+  height: 40px !important;
+  cursor: pointer;
+}
+
+.messages {
+  flex-grow: 1;
+  display: flex;
+  margin-bottom: 5rem;
+
+  &Container {
+    width: 1000px;
+    margin-inline: auto;
+  }
+}
+
+.exit {
+  color: var(--red) !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  position: fixed;
+  margin-inline: auto;
+  width: 95%;
+  z-index: 10;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--white);
+  transition: bottom 0.5s ease;
+
+  &Down {
+    bottom: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  gap: 1rem;
+  max-width: 1000px;
+  margin-inline: auto;
+  border-radius: 50px;
+  min-height: 50px;
+  margin-top: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.textarea {
+  border-radius: 50px;
+  min-height: 50px !important;
+  padding-block: 12px;
+  border: none !important;
+  outline: none !important;
+
+  &:focus {
+    border-color: none;
+  }
+}
+
+.button {
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+}

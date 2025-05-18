@@ -1,0 +1,9 @@
+@mixin container($isMaxWidth: true) {
+  @if $isMaxWidth {
+    max-width: 1400px;
+  } @else {
+    width: 1400px;
+  }
+  padding-inline: 0.8rem;
+  margin-inline: auto;
+}

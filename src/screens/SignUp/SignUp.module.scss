@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  align-items: center;
+  height: 100dvh;
+  margin-inline: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-inline: auto;
+  gap: 0.7rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.input,
+.button {
+  width: 100% !important;
+}
+
+.link,
+.password {
+  color: var(--violet);
+  font-size: 14px;
+}
+
+.password {
+  margin-right: auto;
+}
