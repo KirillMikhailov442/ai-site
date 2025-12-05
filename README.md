@@ -6,7 +6,7 @@ A web application for interacting with artificial intelligence through a user-fr
 * Responsive Design — Proper display on all devices
 * Fast Responses — Minimal delay when communicating with the AI model
 
-## 🛠 Technologies:
+## 🛠 Technologies
 * React 18, React router
 * TypeScript
 * Redux toolkit
